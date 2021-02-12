@@ -9,17 +9,17 @@
 #### Deployed App Link
 >https://exercisetrackandgraph.herokuapp.com/
     
-<img src= "public\images\Screenshot-7day.jpg" alt="Burger Order System Screenshot" width="600"/>
+<img src= "/public/Images/Screenshot-7day.jpg" alt="Burger Order System Screenshot" width="600"/>
     
 ## Description
 ---
 > Exercise Tracking Application. Add your workouts as presets or as completed work outs. 
 > Choose between Cardio and Resistance training. 
-> <img src= "public\images\form.jpg" alt="Burger Order System Screenshot" width="200"/>
+> <img src= "/public/Images/form.jpg" alt="Burger Order System Screenshot" width="200"/>
 > View informative graphs designed to give you an overview of your last 7 workouts. 
-> <img src= "public\images\Screenshot-7day.jpg" alt="Burger Order System Screenshot" width="300"/>
+> <img src= "/public/Images/Screenshot-7day.jpg" alt="Burger Order System Screenshot" width="300"/>
 > View the last workout
-> <img src= "public\images\lastworkout.jpg" alt="Burger Order System Screenshot" width="400"/>
+> <img src= "/public/Images/lastworkout.jpg" alt="Burger Order System Screenshot" width="400"/>
 ##### Use this application to enchance and track your workout routines
     
 </br>
