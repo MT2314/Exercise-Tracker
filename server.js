@@ -20,15 +20,14 @@ app.use(express.static("public"));
 
 
 mongoose.connect(
-  'mongodb+srv://mike2314:gamecube2314@cluster0.gaegd.mongodb.net/workout?retryWrites=true&w=majority'
-  // process.env.MONGDB_URI || 'mongodb://localhost/workout',
-  // {
-  //   useNewUrlParser: true,
-  //   useUnifiedTopology: true,
-  //   useFindAndModify: false,
-  //   useCreateIndex: true,
-  // }
-  , { useNewUrlParser: true })
+   process.env.MONGODB_URI || 'mongodb://localhost/workout',
+  {
+    useNewUrlParser: true,
+    useUnifiedTopology: true,
+    useFindAndModify: false,
+    useCreateIndex: true,
+  }
+)
 
 // Routes
 app.use(require("./routes/api-routes.js"))
